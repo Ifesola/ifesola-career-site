@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cover Letter - Ifesola Fadare</title>
+   <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <header>
+  <div class="top-bar">
+    <!-- LEFT SIDE: Photo + Name -->
+    <div class="logo">
+      <img src="images/profilepics.jpeg" alt="Photo of Ifesola Fadare">
+
+      <div class="name-block">
+        <h1>Ifesola Fadare</h1>
+        <h2 class="job-title">
+          <span class="role-highlight">Software Developer</span> & Cloud Engineer
+        </h2>
+        <h3 class="location">Dallas, TX</h3>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE: Contact + Theme Toggle -->
+    <div class="header-right">
+      <section class="contact-section header-contact">
+        <p>
+          <i class="fa-solid fa-location-dot contact-icon"></i> Dallas, TX<br>
+          <i class="fa-solid fa-phone contact-icon"></i>
+          <strong>Phone:</strong> (315) 690-1793<br>
+          <i class="fa-solid fa-envelope contact-icon"></i>
+          <strong>Email:</strong>
+          <a href="mailto:ifesola.fadare@outlook.com">ifesola.fadare@outlook.com</a><br>
+          <i class="fa-brands fa-linkedin contact-icon"></i>
+          <strong>LinkedIn:</strong>
+          <a href="https://linkedin.com/in/ifesola-fadare" target="_blank">
+            linkedin.com/in/ifesola-fadare
+          </a><br>
+          <i class="fa-brands fa-github contact-icon"></i>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/Ifesola" target="_blank">github.com/Ifesola</a>
+        </p>
+      </section>
+
+      <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+      </button>
+    </div>
+
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Resume</a></li>
+      <li><a href="cover-letter.html" class="active">Cover Letter</a></li>
+      <li><a href="career-goals.html">Career Goals</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <article class="letter-article">
+      <section class="letter-header">
+        <p>
+          Dallas, TX<br>
+          <span class="letter-date">November 16, 2025</span>
+        </p>
+
+        <p>
+          Hiring Manager<br>
+          <!-- <span>[Company Name]</span><br>
+          <span>[City, State]</span> -->
+        </p>
+      </section>
+
+      <hr>
+
+      <section class="letter-body">
+        <p>Dear Hiring Manager,</p>
+
+        <p>
+          I am writing to express my strong interest in a role focused on 
+          <strong>cloud administration</strong> and <strong>software development</strong>. 
+          As a U.S. Army veteran and Information Technology student at 
+          <em>Western Governors University</em>, I bring a disciplined mindset, 
+          hands-on experience with AWS and Azure, and a passion for building secure, 
+          reliable systems.
+        </p>
+
+        <p>
+          Through programs such as the <mark>Microsoft MSSA Server &amp; Cloud Administration</mark> 
+          pathway and an AWS Solution Architect training program, I have engineered cloud-based 
+          infrastructures, automated deployments with Terraform and CI/CD pipelines, and enhanced 
+          monitoring visibility to reduce downtime. These experiences have strengthened my ability 
+          to collaborate with cross-functional teams and deliver solutions that improve both 
+          performance and scalability.
+        </p>
+
+        <p>
+          I am particularly excited about opportunities where I can contribute to 
+          <span class="highlight-span">cloud-native solutions</span> that enhance efficiency and 
+          security, while continuing to grow as a developer. I value clear communication, 
+          continuous learning, and a user-focused approach to technology.
+        </p>
+
+        <p>
+          Thank you for considering my application. I would welcome the opportunity to discuss how 
+          my background, skills, and drive can support your team's goals.
+        </p>
+
+        <p>Sincerely,<br>
+          <strong>Ifesola Fadare</strong>
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer>
+    <p><sup>&copy;</sup> 2025 <strong>Ifesola Fadare</strong> - Cover Letter</p>
+  </footer>
+  
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('dark-theme');
+  }
+
+  window.addEventListener('scroll', function () {
+    const header = document.querySelector('header');
+    if (window.scrollY > 80) {
+      header.classList.add('shrink');
+    } else {
+      header.classList.remove('shrink');
+    }
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const dateElement = document.querySelector(".letter-date");
+    if (dateElement) {
+      const today = new Date();
+      const formatted = today.toLocaleDateString("en-US", {
+        month: "long",
+        day: "numeric",
+        year: "numeric"
+      });
+      dateElement.textContent = formatted;
+    }
+  });
+</script>
+
+
+</body>
+</html>

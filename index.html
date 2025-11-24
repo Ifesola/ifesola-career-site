@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume - Ifesola Fadare</title>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="top-bar">
+      <!-- LEFT: photo + name + titles -->
+      <div class="logo">
+        <img src="images/profilepics.jpeg" alt="Photo of Ifesola Fadare">
+
+        <div class="name-block">
+          <h1>Ifesola Fadare</h1>
+          <h2 class="job-title">
+            <span class="role-highlight">Software Developer</span> &amp; Cloud Engineer
+          </h2>
+          <h3 class="location">Dallas, TX</h3>
+          <div id="current-date"></div>
+        </div>
+      </div>
+      
+      <!-- RIGHT: contact + theme toggle -->
+      <div class="header-right">
+        <section class="contact-section header-contact">
+          <p>
+            <i class="fa-solid fa-location-dot contact-icon"></i> Dallas, TX<br>
+            <i class="fa-solid fa-phone contact-icon"></i>
+            <strong>Phone:</strong> (315) 690-1793<br>
+            <i class="fa-solid fa-envelope contact-icon"></i>
+            <strong>Email:</strong>
+            <a href="mailto:ifesola.fadare@outlook.com">ifesola.fadare@outlook.com</a><br>
+            <i class="fa-brands fa-linkedin contact-icon"></i>
+            <strong>LinkedIn:</strong>
+            <a href="https://linkedin.com/in/ifesola-fadare" target="_blank">
+              linkedin.com/in/ifesola-fadare
+            </a><br>
+            <i class="fa-brands fa-github contact-icon"></i>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/Ifesola" target="_blank">github.com/Ifesola</a>
+          </p>
+        </section>
+         
+            <!-- download button here -->
+            <div class="download-wrapper">
+              <a href="Ifesola_Fadare_Resume.pdf" class="download-btn" download>
+                <i class="fa-solid fa-download"></i> Download Résumé (PDF)
+                </a>
+            </div>
+
+        <button class="theme-toggle" onclick="toggleTheme()">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+      </div>
+    </div>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Resume</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+   
+    <section class="resume-layout">
+      <!-- LEFT COLUMN -->
+      <aside class="sidebar">
+        <article class="resume-section">
+          <h2>Professional Summary</h2>
+          <p>
+            <strong>Cloud and Software Engineer</strong> professional specializing in scalable
+            backend systems and infrastructure automation. U.S. Army Veteran and
+            Information Technology student at <em>Western Governors University</em> with
+            hands-on experience in AWS, Python, Terraform, and CI/CD pipelines. Adept at
+            developing cloud-native solutions that enhance system efficiency, streamline
+            deployment, and ensure reliability.
+          </p>
+        </article>
+        
+        <article class="resume-section">
+          <h2>Education</h2>
+          <p>
+            <strong>Western Governors University</strong> - Salt Lake City, UT<br>
+            B.S. Information Technology (Expected Nov 2026)<br>
+            Member, <span>National Society of Leadership and Success (NSLS)</span><br>
+            <em>Relevant Coursework:</em> Data Management, Network Infrastructure,
+            Scripting and Programming, Project Management, Web Development
+          </p>
+        </article>
+
+        <article class="resume-section">
+          <h2>Technical Skills</h2>
+          <ul class="skills-list">
+            <li><strong>Languages:</strong> HTML, CSS, Python, Java, JavaScript, SQL, PowerShell, Bash</li>
+            <li><strong>Cloud &amp; DevOps:</strong> AWS, Azure, Terraform, Docker, CI/CD, Jenkins, Git/GitLab</li>
+            <li><strong>Frameworks &amp; Tools:</strong> React, Node.js, REST APIs, JSON, XML, Agile/Scrum</li>
+            <li><strong>Certifications:</strong> AWS Solutions Architect, ITIL 4, CompTIA Security+</li>
+          </ul>
+        </article>
+      </aside>
+
+      <!-- RIGHT COLUMN -->
+      <section class="main-content">
+        <article class="resume-section">
+          <h2>Experience</h2>
+
+          <article class="job">
+            <h3>Server &amp; Cloud Administration Intern -
+              <span class="org-name">Microsoft MSSA Program (Remote)</span>
+            </h3>
+            <p class="job-meta">Jan 2025 - May 2025</p>
+            <ul>
+              <li>Engineered and maintained cloud-based infrastructure using Azure and PowerShell, improving deployment efficiency by 25%.</li>
+              <li>Built and tested automation pipelines with Terraform and Jenkins, reducing manual provisioning tasks by 40%.</li>
+              <li>Collaborated with engineers to deploy and monitor infrastructure changes across multiple environments with zero downtime.</li>
+              <li>Enhanced cloud monitoring dashboards to improve system visibility and proactively identify resource bottlenecks.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>AWS Solution Architect Trainee -
+              <span class="org-name">NPower (Remote)</span>
+            </h3>
+            <p class="job-meta">Apr 2024 - Nov 2024</p>
+            <ul>
+              <li>Developed and deployed AWS-based architectures using EC2, S3, Lambda, and IAM.</li>
+              <li>Automated infrastructure tasks using Python and CloudFormation templates, reducing provisioning time by 35%.</li>
+              <li>Implemented IAM role-based access and encryption to align with AWS security best practices.</li>
+              <li>Collaborated in Agile teams to optimize CI/CD workflows for web applications hosted on AWS.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Transportation &amp; Communication Specialist -
+              <span class="org-name">U.S. Army</span>
+            </h3>
+            <p class="job-meta">Feb 2022 - Feb 2023</p>
+            <ul>
+              <li>Managed and secured digital communication networks supporting 100+ users in high-pressure environments.</li>
+              <li>Coordinated system setup and troubleshooting, improving mission response times by 15%.</li>
+              <li>Produced technical documentation and training, reducing onboarding time by 20%.</li>
+              <li>Applied disciplined problem-solving and teamwork to ensure operational continuity and data integrity.</li>
+            </ul>
+          </article>
+        </article>
+
+        <article class="resume-section">
+          <h2>Projects &amp; Labs</h2>
+          <article class="job">
+            <h3>AWS Lambda Automation Lab</h3>
+            <p><em>AWS, Python, CloudWatch</em></p>
+            <ul>
+              <li>Designed a serverless data automation pipeline using AWS Lambda, S3, and CloudWatch.</li>
+              <li>Reduced manual system checks by 40% via automated event-driven workflows.</li>
+              <li>Implemented IAM roles and least-privilege policies to strengthen automation security.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>CI/CD Infrastructure Automation</h3>
+            <p><em>Jenkins, Terraform, GitLab</em></p>
+            <ul>
+              <li>Built CI/CD pipelines integrating Terraform and GitLab runners, improving deployment reliability by 30%.</li>
+              <li>Automated infrastructure provisioning for multi-tier web apps, reducing release times by 25%.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Data Pipeline Optimization</h3>
+            <p><em>Python, AWS S3, SQL</em></p>
+            <ul>
+              <li>Developed an automated ETL pipeline for near real-time data ingestion.</li>
+              <li>Optimized query performance and storage, reducing processing time by 20%.</li>
+            </ul>
+          </article>
+        </article>
+
+        <!-- TABLE REQUIREMENT -->
+        <article class="resume-section">
+          <h2>Technical Skills Overview</h2>
+          <table>
+            <caption>Core Cloud &amp; DevOps Skills Snapshot</caption>
+            <thead>
+              <tr>
+                <th>Technology</th>
+                <th>Focus Area</th>
+                <th>Experience Level</th>
+                <th>Used In</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>AWS</td>
+                <td>Cloud Infrastructure</td>
+                <td>Intermediate</td>
+                <td>Architectures, ETL Pipeline</td>
+              </tr>
+              <tr>
+                <td>Azure</td>
+                <td>Cloud Administration</td>
+                <td>Intermediate</td>
+                <td>MSSA Internship, Monitoring</td>
+              </tr>
+              <tr>
+                <td>Terraform</td>
+                <td>Infrastructure as Code</td>
+                <td>Intermediate</td>
+                <td>CI/CD Automation Lab</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p><sup>&copy;</sup>2025 <strong>Ifesola Fadare</strong> - Portfolio Resume</p>
+  </footer>
+
+  <!-- JS: date + console log, dark mode + shrink header -->
+  <script>
+    const dateDiv = document.getElementById("current-date");
+    const today = new Date();
+    dateDiv.textContent = "Last updated: " + today.toLocaleDateString();
+    console.log("Resume page loaded for Ifesola Fadare.");
+  </script>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark-theme');
+    }
+
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('header');
+      if (window.scrollY > 80) {
+        header.classList.add('shrink');
+      } else {
+        header.classList.remove('shrink');
+      }
+    });
+  </script>
+</body>
+</html>

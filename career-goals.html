@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Goals - Ifesola Fadare</title>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <!-- LEFT -->
+      <div class="logo">
+        <img src="images/profilepics.jpeg" alt="Photo of Ifesola Fadare">
+
+        <div class="name-block">
+          <h1>Ifesola Fadare</h1>
+          <h2 class="job-title">
+            <span class="role-highlight">Software Developer</span> &amp; Cloud Engineer
+          </h2>
+          <h3 class="location">Dallas, TX</h3>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="header-right">
+        <section class="contact-section header-contact">
+          <p>
+            <i class="fa-solid fa-location-dot contact-icon"></i> Dallas, TX<br>
+            <i class="fa-solid fa-phone contact-icon"></i>
+            <strong>Phone:</strong> (315) 690-1793<br>
+            <i class="fa-solid fa-envelope contact-icon"></i>
+            <strong>Email:</strong>
+            <a href="mailto:ifesola.fadare@outlook.com">ifesola.fadare@outlook.com</a><br>
+            <i class="fa-brands fa-linkedin contact-icon"></i>
+            <strong>LinkedIn:</strong>
+            <a href="https://linkedin.com/in/ifesola-fadare" target="_blank">
+              linkedin.com/in/ifesola-fadare
+            </a><br>
+            <i class="fa-brands fa-github contact-icon"></i>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/Ifesola" target="_blank">github.com/Ifesola</a>
+          </p>
+        </section>
+
+        <button class="theme-toggle" onclick="toggleTheme()">
+          <i class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Resume</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html" class="active">Career Goals</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <!-- IMAGE + TEXT -->
+    <section class="goals-intro">
+      <h2>My Career Vision</h2>
+      <div class="goals-hero">
+        <img src="images/profilepics2.jpeg" alt="Photo of Ifesola Fadare" class="career-img">
+        <p>
+          My long-term goal is to grow into a <strong>Cloud Security Engineer</strong> and
+          <strong>SOC Analyst</strong> who designs, implements, and protects scalable cloud
+          infrastructures. I'm focused on building strong skills in automation, monitoring,
+          and incident response across AWS and Azure.
+        </p>
+      </div>
+    </section>
+
+    <!-- AUDIO -->
+    <section class="media-section">
+      <h2>Audio Introduction</h2>
+      <p>Listen to a short audio clip where I introduce myself and my career goals:</p>
+      <audio controls>
+        <source src="audio/intro.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="media-section">
+      <h2>Career Goals Video</h2>
+      <p>This video gives a brief overview of my journey into cloud and cybersecurity:</p>
+      <video controls width="480">
+        <source src="video/demo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- FORM -->
+    <section class="contact-section">
+      <h2>Contact Me</h2>
+      <p>If you would like to connect about opportunities or projects, please fill out this form:</p>
+
+      <form action="https://wp.zybooks.com/form-viewer.php" method="post" class="contact-form">
+        <div class="form-row">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" required>
+        </div>
+
+        <div class="form-row">
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" required>
+        </div>
+
+        <div class="form-row">
+          <label for="company-name">Company Name:</label>
+          <input type="text" id="company-name" name="company-name">
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-row">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <fieldset class="form-row">
+          <legend>Best Contact Time:</legend>
+          <label>
+            <input type="radio" name="best-contact-time" value="am" checked> a.m.
+          </label>
+          <label>
+            <input type="radio" name="best-contact-time" value="pm"> p.m.
+          </label>
+          <label>
+            <input type="radio" name="best-contact-time" value="anytime"> anytime
+          </label>
+        </fieldset>
+
+        <div class="form-row">
+          <label for="contact-method">Preferred Contact Method:</label>
+          <select id="contact-method" name="contact-method">
+            <option value="phone">Phone</option>
+            <option value="email">Email</option>
+            <option value="text">Text</option>
+          </select>
+        </div>
+
+        <div class="form-row">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  Videos: <cite>https://stock.adobe.com</cite>
+
+Audio: <cite>https://uppbeat.io/music/</cite>
+
+  <footer>
+    <p><sup>&copy;</sup> 2025 <strong>Ifesola Fadare</strong> - Career Goals</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark-theme');
+    }
+
+    window.addEventListener('scroll', function () {
+      const header = document.querySelector('header');
+      if (window.scrollY > 80) {
+        header.classList.add('shrink');
+      } else {
+        header.classList.remove('shrink');
+      }
+    });
+  </script>
+</body>
+</html>
