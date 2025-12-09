@@ -1,121 +1,113 @@
-# Ifesola Fadare – Web Portfolio
+# Personal Career Website
 
-This repository contains my personal web portfolio for the **Web Development Foundations course at Western Governors University.  
-The site showcases my **résumé**, **cover letter**, and **career goals** using semantic HTML5, modern CSS, and a small amount of JavaScript for interactivity.
-
----
-
-## 🔗 Live Demo
-
-`https://github.com/Ifesola`
+A multi-page professional portfolio website featuring a résumé, cover letter, and career goals page with interactive elements and dark mode support.
 
 ---
 
-## Project Structure
+##  Project Structure
 
-```text
-resume.html         # Résumé page (home)
-cover-letter.html   # Cover letter
-career.goals.html   # Career goals page with media + contact form
-style.css           # Global styling shared across all pages
-images/             # Profile photo and other images
-audio/              # Intro audio clip (career goals page)
-video/              # Career goals video
-docs/               # Downloadable résumé files (PDF/DOCX)
+```
+ifesola-career-site/
+│
+├── resume.html         # Résumé page (home)
+├── cover-letter.html   # Cover letter
+├── career.goals.html   # Career goals page with media + contact form
+├── style.css           # Global styling shared across all pages
+├── images/             # Profile photo and other images
+├── audio/              # Intro audio clip (career goals page)
+├── video/              # Career goals video
+└── docs/               # Downloadable résumé files (PDF/DOCX)
+```
 
- Features
- Semantic HTML5
+---
 
-Uses <header>, <nav>, <main>, <section>, <article>, <footer>
+##  Features
 
-Improves structure and accessibility
+###  Semantic HTML5
+- Uses `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
+- Improves structure and accessibility
 
- Consistent Navigation
+### 🧭 Consistent Navigation
+- Links between Résumé, Cover Letter, Career Goals
 
-Links between Résumé, Cover Letter, Career Goals
+###  Responsive Header Layout
+- Profile image + name + job title
+- Contact information section
+- Auto-updating date
 
- Responsive Header Layout
+###  Dark Mode Toggle
+- JavaScript toggles a `.dark-theme` class on `<body>`
 
-Profile image + name + job title
-
-Contact information section
-
-Auto-updating date
-
- Dark Mode Toggle
-
-JavaScript toggles a .dark-theme class on <body>
-
- Dynamic Dates
-
+###  Dynamic Dates
 Auto-updates:
+- "Last updated" on résumé
+- Date in cover letter
 
-“Last updated” on résumé
+###  Media-Rich Career Page
+- Embedded audio intro
+- Embedded video explaining career path
+- Contact form posts to Zybooks viewer endpoint
 
-Date in cover letter
+###  Downloadable Résumé
+- Button styled for PDF/DOCX downloads via the `docs/` folder
 
- Media-Rich Career Page
+---
 
-Embedded audio intro
+##  Tech Stack
 
-Embedded video explaining career path
+- **HTML5** – semantic layout
+- **CSS3** – styling, typography, animations
+- **JavaScript** – theme toggle, date logic
+- **Git & GitHub** – version control and hosting
 
-Contact form posts to Zybooks viewer endpoint
+---
 
- Downloadable Résumé
+##  How to Run Locally
 
-Button styled for PDF/DOCX downloads via the docs/ folder
-
-Tech Stack
-
-HTML5 – semantic layout
-
-CSS3 – styling, typography, animations
-
-JavaScript – theme toggle, date logic
-
-Git & GitHub – version control and hosting
-
-How to Run Locally
-
-1. Clone the repository:
+### 1. Clone the repository:
+```bash
 git clone https://github.com/ifesola/ifesola-career-site.git
 cd ifesola-career-site
+```
 
-2. Open the website:
+### 2. Open the website:
+- Double-click `resume.html`, or
+- Run with VS Code Live Server
 
-Double-click resume.html, or
+### 3. Navigate the site:
+- `resume.html`
+- `cover-letter.html`
+- `career.goals.html`
 
-Run with VS Code Live Server
+---
 
-3. Navigate the site:
-
-resume.html
-
-cover-letter.html
-
-career.goals.html
-
-Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 
-Building a multi-page HTML/CSS portfolio
+- Building a multi-page HTML/CSS portfolio
+- Using semantic structure for clean layout
+- Applying animations + transitions
+- Managing responsive layouts
+- Creating a dark mode system
+- Embedding media on the web
+- Using Git for version control and GitHub hosting
 
-Using semantic structure for clean layout
+---
 
-Applying animations + transitions
+##  License
 
-Managing responsive layouts
+This project is for **educational and personal portfolio use**.
 
-Creating a dark mode system
+You're welcome to reference the structure or ideas, but please do not copy the content.
 
-Embedding media on the web
+---
 
-Using Git for version control and GitHub hosting
+##  Author
 
-License
+**Ifesola Fadare**  
+[GitHub](https://github.com/ifesola) | [Live Demo](https://ifesola.github.io/ifesola-career-site/)
 
-This project is for educational and personal portfolio use.
-You’re welcome to reference the structure or ideas, but please do not copy the content.
+---
 
+** Star this repo if you found it helpful!**
