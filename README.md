@@ -27,7 +27,7 @@ ifesola-career-site/
 - Uses `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
 - Improves structure and accessibility
 
-### 🧭 Consistent Navigation
+###  Consistent Navigation
 - Links between Résumé, Cover Letter, Career Goals
 
 ###  Responsive Header Layout
@@ -71,8 +71,9 @@ cd ifesola-career-site
 ```
 
 ### 2. Open the website:
-- Double-click `resume.html`, or
+- Double-click `resume.html`, or 
 - Run with VS Code Live Server
+- Live demo Link - https://ifesola.github.io/ifesola-career-site/index.html
 
 ### 3. Navigate the site:
 - `resume.html`
